@@ -3,7 +3,8 @@ KVERSION = $(shell uname -r)
 KDIR := /lib/modules/$(KVERSION)/build
 PWD := $(shell pwd)
 
-obj-m = hid-lg-g710-plus.o
+#obj-m = hid-lg-g710-plus.o
+obj-m = hid-lg-g910.o
 
 default: build
 
